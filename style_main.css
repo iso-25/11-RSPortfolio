@@ -1,0 +1,203 @@
+.main {
+  min-height: 816px;
+  height: 100%;
+  margin-inline: auto;
+  background: #fff;
+}
+
+.main__txt {
+  margin-top: 135px;
+  min-height: 495px;
+  max-width: 600px;
+  margin-inline: auto;
+  text-align: center;
+  vertical-align: auto;
+  color: #171718;
+  font-family: "DM Sans", sans-serif;
+  letter-spacing: -0.5px;
+}
+
+address {
+  font-style: normal;
+}
+
+.main__style-bold {
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.main__style-medium {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+/* Інформація на головній сторінці - Info*/
+.info {
+  text-align: center;
+  color: #fff;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  white-space: nowrap;
+}
+
+.info__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-block {
+  margin-top: 183px;
+  max-width: 630px;
+  width: 100%;
+  margin-inline: auto;
+  margin-bottom: 20px;
+}
+
+.info__title-block {
+  color: #fafafa;
+  line-height: 140%;
+}
+
+.role-title {
+  font-size: 40px;
+}
+
+.desc-info {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.info__btn {
+  width: 160px;
+  height: 48px;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.15px;
+  transition: 0.2s all ease-in-out;
+}
+
+.info__btn:hover {
+  transform: scale(1.5);
+}
+
+.btn-info {
+  background: #5c62ec;
+  margin-bottom: 248px;
+}
+
+/* Сторінка Project */
+
+.main__title-project {
+  margin: 71px 0 40px;
+}
+
+.main__img-project {
+  max-width: 867px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+.main__img-project img {
+  max-width: 867px;
+  height: auto;
+}
+
+.main__desc-project {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -0.5px;
+  margin-bottom: 30px;
+}
+
+.btn-project {
+  width: 169px;
+margin-inline: auto;
+  border: 1px solid #000;
+  margin-bottom: 70px;
+}
+
+/* Для різних контейнерів з написами один колір */
+.email,
+.info-title-aktive {
+  color: #5c62ec;
+}
+/* Для різних контейнерів один колір */
+
+@media screen and (max-width: 920px) {
+  .title-block {
+    margin-top: 150px;
+  }
+
+  .btn-info {
+    margin-bottom: 180px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  /* Інформація на головній сторінці - Info*/
+
+  .title-block {
+    margin-top: 130px;
+  }
+
+  .role-title {
+    font-size: 30px;
+  }
+
+  .desc-info {
+    font-size: 18px;
+  }
+
+  .btn-info {
+    margin-bottom: 160px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main__txt {
+    font-size: 14px;
+  }
+
+  .main__style-bold {
+    font-size: 30px;
+  }
+
+  /* Інформація на головній сторінці - Info*/
+
+  .title-block {
+    margin-top: 100px;
+  }
+
+  .role-title {
+    font-size: 20px;
+  }
+
+  .desc-info {
+    font-size: 14px;
+  }
+
+  .info__btn {
+    width: 140px;
+    height: 44px;
+    padding: 10px 24px;
+    font-size: 14px;
+  }
+
+  .btn-info {
+    margin-bottom: 120px;
+  }
+}

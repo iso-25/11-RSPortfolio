@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Poppins:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_main.css">
+    <title>React Simple Portfolio</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- Шапка -->
+        <header class="header">
+            <div class="container header__container">
+                <div class="header__logo">
+                    <a class="logo_txt" href="/index.html" id="animal_logo">
+                        <bold>Freelancer</bold> portfolio
+                    </a>
+                </div>
+                <input class="header__chk" id="headerCheckbox" type="checkbox">
+                <label for="headerCheckbox" class="menu-burger header__menu-burger">
+                    <span class="material-icons header__icon-menu">menu</span>
+                </label>
+                <ul class="header__ul">
+                    <label for="headerCheckbox" class="menu-back header__menu-back">
+                        <span class="material-icons header__icon-back">arrow_back</span>
+                    </label>
+                    <li class="header__li header__li_active"><a href="/index.html" class="header__a">Projects</a></li>
+                    <li class="header__li"><a href="/skils.html" class="header__a">Skills</a></li>
+                    <li class="header__li"><a href="/contacts.html" class="header__a">Contacts</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- Інфо -->
+        <section class="info wrapper__container">
+            <div class="container info__container">
+                <div class="title-block info__title-block">
+                    <div class="title_all info__title-block">Hi, my name is
+                        <span class="info-title-aktive info__title-block">Ihor</span>
+                    </div>
+                    <div class="role-title info__title-block">a frontend developer</div>
+                </div>
+                <div class="desc-info info__desc">with passion for learning and creating.</div>
+                <div class="btn-info info__btn">
+                    <a class="btn-inscription info__btn-inscription" href="/">Download CV</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Проекти -->
+        <section class="projects wrapper__container">
+            <div class="container projects__container">
+                <div class="title_all projects__title">Projects
+                </div>
+                <div class="grid-container projects__grid-container">
+                    <div class="projects__grid-item">
+                        <div class="projects__image-in-grid">
+                            <a href="/"><img src="img/img_01.png" alt="Gaming streaming portal"></a>
+                        </div>
+                            <div class="projects__txt-in-grid"><a href="/">Gaming streaming portal</a></div>
+                    </div>
+                    <div class="projects__grid-item">
+                        <div class="projects__image-in-grid">
+                            <a href="/"><img src="img/img_02.png" alt="Video service"></a>
+                        </div>
+                        <div class="projects__txt-in-grid"><a href="/">Video service</a></div>
+                    </div>
+                    <div class="projects__grid-item">
+                        <div class="projects__image-in-grid">
+                            <a href="/"><img src="img/img_03.png" alt="Video portal"></a>
+                        </div>
+                        <div class="projects__txt-in-grid"><a href="/">Video portal</a></div>
+                    </div>
+                    <div class="projects__grid-item">
+                        <div class="projects__image-in-grid">
+                            <a href="/"><img src="img/img_04.png" alt="Dating app"></a>
+                        </div>
+                        <div class="projects__txt-in-grid"><a href="/">Dating app</a></div>
+                    </div>
+                    <div class="projects__grid-item">
+                        <div class="projects__image-in-grid">
+                            <a href="/"><img src="img/img_05.png" alt="Landing"></a>
+                        </div>
+                        <div class="projects__txt-in-grid"><a href="/">Landing</a></div>
+                    </div>
+                    <div class="projects__grid-item">
+                        <div class="projects__image-in-grid">
+                            <a href="/"><img src="img/img_06.png" alt="Gaming community"></a>
+                        </div>
+                        <div class="projects__txt-in-grid"><a href="/">Gaming community</a></div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Підвал -->
+        <footer class="footer wrapper__container">
+            <div class="container footer__container">
+                <div class="link footer__link">
+                    <a href="/"><img class="img footer__img" src="img/link_instagram.svg" alt="Instagram"></a>
+                    <a href="/"><img class="img footer__img" src="img/link_twitter.svg" alt="Instagram"></a>
+                    <a href="/"><img class="img footer__img" src="img/link_gitHub.svg" alt="Instagram"></a>
+                    <a href="/"><img class="img footer__img" src="img/link_linkedIn.svg" alt="Instagram">
+                </div>
+                <div class="about footer__about">©
+                    <script language="javascript" type="text/javascript">
+                        document.write(new Date().getFullYear());
+                    </script> frontend-dev.ua
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

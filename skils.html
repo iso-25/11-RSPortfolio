@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Poppins:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_main.css">
+    <title>React Simple Portfolio</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container header__container">
+                <div class="header__logo">
+                    <a class="logo_txt" href="/index.html" id="animal_logo">
+                        <bold>Freelancer</bold> portfolio
+                    </a>
+                </div>
+                <input class="header__chk" id="headerCheckbox" type="checkbox">
+                <label for="headerCheckbox" class="menu-burger header__menu-burger">
+                    <span class="material-icons header__icon-menu">menu</span>
+                </label>
+                <ul class="header__ul">
+                    <li class="header__li"><a href="/index.html" class="header__a">Projects</a></li>
+                    <li class="header__li header__li_active"><a href="/skils.html" class="header__a">Skills</a></li>
+                    <li class="header__li"><a href="/contacts.html" class="header__a">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <section class="main wrapper__container">
+            <div class="container main__container">
+                <div class="main__txt">
+                    <h1 class="title_all main__title">Skills</h1>
+                    <info>
+                        <p class="main__style-bold">Frontend</p>
+                        <p class="main__style-medium">Java, JavaScript, TypeScript, ReactJS, Angular, Redux, HTML, CSS,
+                            NPM,
+                            BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents</p>
+                        <p class="main__style-bold">Backend</з>
+                        <p class="main__style-medium">NodeJS, MySQL, MongoDB, PHP, Laravel</p>
+                    </info>
+                </div>
+
+            </div>
+        </section>
+        <footer class="footer wrapper__container">
+            <div class="container footer__container">
+                <div class="link footer__link">
+                    <a href="/"><img class="img footer__img" src="img/link_instagram.svg" alt="Instagram"></a>
+                    <a href="/"><img class="img footer__img" src="img/link_twitter.svg" alt="Instagram"></a>
+                    <a href="/"><img class="img footer__img" src="img/link_gitHub.svg" alt="Instagram"></a>
+                    <a href="/"><img class="img footer__img" src="img/link_linkedIn.svg" alt="Instagram">
+                </div>
+                <div class="about footer__about">©
+                    <script language="javascript" type="text/javascript">
+                        document.write(new Date().getFullYear());
+                    </script> frontend-dev.ua
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
