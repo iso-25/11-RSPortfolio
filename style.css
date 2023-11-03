@@ -76,7 +76,7 @@ body {
 
 .logo_txt:hover {
   display: inline-block;
-  text-shadow: 6px 6px 6px #fff;
+  text-shadow: 3px 3px 3px #fff;
   transform: scale(1.5);
 }
 
